@@ -1,5 +1,7 @@
 # firsttry
 my first github repository
-# the largest heading #
+# You can put largest heading this way #
+
 *This text will be italic*
+
 **This text will be bold**
