@@ -5,9 +5,9 @@
 # Using the search strategies indicated above, we first check how many of such articles there are:
 
 
-from Bio import Entrez   # biopython module for searching on Entrez
-from Bio import Medline
-import numpy as np
+>>> from Bio import Entrez   # biopython module for searching on Entrez
+>>> from Bio import Medline
+>>> import numpy as np
 
 Entrez.email = "bewketu.bekele@gmail.com"  
 
