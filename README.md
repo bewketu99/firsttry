@@ -2,9 +2,9 @@
 
 * Biopython module will be used 
 
-from Bio import Entrez   # biopython module for searching on Entrez
-from Bio import Medline
-import numpy as np
+* from Bio import Entrez   ( biopython module for searching on Entrez )
+* from Bio import Medline
+* import numpy as np
 
 Entrez.email = "bewketu.bekele@gmail.com"  
 
@@ -54,7 +54,7 @@ np.savetxt('SystematicSearch.txt', records, fmt="%s") # this saves in a text for
 
  
 
-
+Nathan Weleli, please don't distrub Bewketu
 
 
 
