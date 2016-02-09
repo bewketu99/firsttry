@@ -41,13 +41,12 @@ print idlist
 This returns a python list containing all of the PubMed IDs of articles related to the search concepts. i.e. it will display as [18680603', '18665331', '18661158', '18627489' ... ]
 
 # ===========  ======================= 
-# Now that we've got the PubMed IDs, 
-# The following commands will give us the corresponding Medline records and extract the information from them. Here, we'll download the Medline records in the Medline flat-file format, and use the Bio.Medline module to parse them:
+Now that we've got the PubMed IDs, 
+
+The following commands will give us the corresponding Medline records and extract the information from them. Here, we'll download the Medline records in the Medline flat-file format, and use the Bio.Medline module to parse them:
 
 handle = Entrez.efetch(db="pubmed", id=idlist, rettype="medline",retmode="text")
 records = Medline.parse(handle)
-
-# Keep in mind that records is an iterator, so you can iterate through the records only once. If you want to save the records, you can convert them to a list:
 
 records = list(records)
 
