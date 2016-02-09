@@ -51,19 +51,3 @@ records = Medline.parse(handle)
 records = list(records)
 
 np.savetxt('SystematicSearch.txt', records, fmt="%s") # this saves in a text format
-
- 
-
-Nathan Weleli, please don't distrub Bewketu
-
-
-
-
-
-
-
-
-
-
-
-
